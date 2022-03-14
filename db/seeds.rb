@@ -5,3 +5,15 @@
 #
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
+
+song = Song.new({title: "Stariway to Heaven", album: "Led Zepplin IV", artist: "Led Zepplin", year: 1971})
+song.save
+
+song = Song.new({title: "Thunderstruck", album: "The Razors Edge", artist: "AC/DC", year: 1990})
+song.save
+
+song = Song.new({title: "Go Your Own Way", album: "Rumours", artist: "Fleetwood Mac", year: 1977})
+song.save
+
+song = Song.new({title: "Cherry Pie", album: "Cherry Pie", artist: "Warrant", year: 1990})
+song.save
